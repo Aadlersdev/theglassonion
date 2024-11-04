@@ -49,10 +49,17 @@ section {
     text-align: center;
 }
 
-section img {
-    max-width: 90%;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-container img {
+    width: 100%;
     height: auto;
-    margin: 20px 0;
+    border-radius: 8px;
 }
 
 footer {
